@@ -1,1 +1,2 @@
-# google-homepage
+I will be recreating the google homepage using developer tools for help. I will be using html for structure and CSS for styling.
+From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
