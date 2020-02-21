@@ -1,6 +1,9 @@
 head, div, nav, form, input, li {
     font-family: arial, serif;
 }
+body {
+    margin: 0px;
+}
 .navigation {
     padding: 15px;
 }
@@ -29,15 +32,15 @@ nav .nav-right:hover {
 .main-form {
     text-align: center;
     margin-top: 200px;
-    margin-bottom: 380px;
+    margin-bottom: 333px;
 }
 img {
     display: block;
     margin: 0 auto;
 }
 .search-bar {
-    width: 45em;
-    height: 3em;
+    width: 48em;
+    height: 3.5em;
     border-radius: 100px;
     margin-top: 18px;
 }
@@ -49,6 +52,8 @@ img {
     margin-top: 20px;
     font-size: 14px;
     background: #f2f2f2;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .submit:hover {
 border: 1px rgb(173, 173, 173) solid;
