@@ -1,3 +1,6 @@
+head, div, nav, form, input, li {
+    font-family: arial, serif;
+}
 .navigation {
     padding: 20px;
 }
@@ -5,6 +8,7 @@ nav li {
     display: inline;
     color: black;
     padding: 10px;
+    font-size: 13px;
 }
 nav li a:link {
     color: black;
@@ -15,4 +19,10 @@ nav .nav-left {
 }
 nav .nav-right {
     float: right;
+}
+nav .nav-left:hover {
+    text-decoration: underline;
+}
+nav .nav-right:hover {
+    text-decoration: underline;
 }
