@@ -2,7 +2,7 @@ head, div, nav, form, input, li {
     font-family: arial, serif;
 }
 .navigation {
-    padding: 20px;
+    padding: 15px;
 }
 nav li {
     display: inline;
@@ -25,4 +25,37 @@ nav .nav-left:hover {
 }
 nav .nav-right:hover {
     text-decoration: underline;
+}
+.main-form {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 380px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+.search-bar {
+    width: 45em;
+    height: 3em;
+    border-radius: 100px;
+    margin-top: 18px;
+}
+.submit {
+    height:40px;
+    width: 125px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 20px;
+    font-size: 14px;
+    background: #f2f2f2;
+}
+.submit:hover {
+border: 1px rgb(173, 173, 173) solid;
+background: #f2f2f2;
+}
+footer nav {
+    background: #f2f2f2;
+    border-top: 1px solid #cacaca;
+    height: 40px;
 }
